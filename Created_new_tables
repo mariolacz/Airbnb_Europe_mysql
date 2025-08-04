@@ -1,0 +1,16 @@
+USE AIRBNB;
+
+CREATE TABLE airbnb_amsterdam AS
+SELECT * FROM airbnb WHERE CITY= 'Amsterdam';
+
+CREATE TABLE airbnb_athens AS
+SELECT * FROM airbnb WHERE CITY = 'Athens';
+
+CREATE TABLE airbnb_barcelona AS
+SELECT * FROM airbnb WHERE city = 'Barcelona';
+
+CREATE TABLE airbnb_berlin AS
+SELECT * FROM airbnb WHERE city = 'Berlin';
+
+CREATE TABLE airbnb_budapest AS
+SELECT * FROM airbnb WHERE city = 'Budapest';
