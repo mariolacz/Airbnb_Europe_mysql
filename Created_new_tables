@@ -14,3 +14,18 @@ SELECT * FROM airbnb WHERE city = 'Berlin';
 
 CREATE TABLE airbnb_budapest AS
 SELECT * FROM airbnb WHERE city = 'Budapest';
+
+CREATE TABLE airbnb_lisbon AS
+SELECT * FROM airbnb WHERE city= 'Lisbon';
+
+CREATE TABLE airbnb_london AS
+SELECT * FROM airbnb WHERE city = 'London';
+
+CREATE TABLE airbnb_paris AS
+SELECT * FROM airbnb WHERE city = 'Paris';
+
+CREATE TABLE airbnb_rome AS
+SELECT * FROM airbnb WHERE city = 'Rome';
+
+CREATE TABLE airbnb_vienna AS
+SELECT * FROM airbnb WHERE city = 'Vienna';
